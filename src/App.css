@@ -43,3 +43,25 @@
     height:100%;
   }
 }
+
+
+.width{
+  width:37%;
+}
+.fa-search:hover {
+  cursor:pointer;
+  color: black;
+  font-size:1.3rem;
+  
+}
+.parentDiv {
+  position:relative;
+  margin-left:20%;
+}
+.childDiv {
+  position:absolute;
+  left:50%;
+  transform: translate(-50%,0);
+  width:100%;
+  height:auto;
+}
